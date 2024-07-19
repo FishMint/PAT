@@ -10,8 +10,8 @@ int main(void) {
     cin>>n;
     for(int i = 0; i < n; i++) {
         cin>>a>>b>>c;
-        if(a + b > c) cout<<"Case #"<<i<<": true"<<endl;
-        else cout<<"Case #"<<i<<": false"<<endl;
+        if(a + b > c) cout<<"Case #"<<i + 1<<": true"<<endl;
+        else cout<<"Case #"<<i + 1<<": false"<<endl;
     }
 
 

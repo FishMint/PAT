@@ -67,9 +67,9 @@ int main(void) {
             k = i;
         }
     }
-    if (k == 0) cout << "B ";
-    if (k == 1) cout << "C ";
-    if (k == 2) cout << "J ";
+    if (k == 0) cout << "B";
+    if (k == 1) cout << "C";
+    if (k == 2) cout << "J";
 
     return 0;
 }

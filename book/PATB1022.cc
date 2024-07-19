@@ -16,6 +16,10 @@ int main(void) {
     for(int i = cnt - 1; i >= 0; i--) {
         printf("%d", ans[i]);
     }
+
+    //0，0的情况
+    if(cnt == 0) printf("0");
+
     printf("\n");
     return 0;
 }

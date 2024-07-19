@@ -43,7 +43,7 @@ int main(void) {
     if(A2_cnt == 0) printf("N "); else printf("%d ", A2);
     if(A3 == 0)     printf("N "); else printf("%d ", A3);
     if(A4_cnt == 0) printf("N "); else printf("%.1f ", (float)A4_sum / A4_cnt);
-    if(A5_cnt == 0) printf("N "); else printf("%d", A5);
+    if(A5_cnt == 0) printf("N"); else printf("%d", A5);
 
 
     return 0;
