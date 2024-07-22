@@ -32,7 +32,7 @@ int main(void) {
             node.push_back(t);
         }
 
-        //单组排序，然后直接打印好local_rank
+        //单组排序，然后直接赋值 local_rank
         sort(node.begin() + total, node.begin() +total + k, cmp);
         node[total].local_rank = 1;
 
